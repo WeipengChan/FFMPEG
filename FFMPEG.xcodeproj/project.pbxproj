@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42D61202A36F40BDB0A607D8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 693BBB2861CC45C88065D030 /* libPods.a */; };
+		F39FAFCD1945B59200A102F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F39FAFCC1945B59200A102F5 /* main.m */; };
+		F39FAFD01945B59200A102F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F39FAFCF1945B59200A102F5 /* AppDelegate.m */; };
+		F39FAFD31945B59200A102F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39FAFD21945B59200A102F5 /* ViewController.m */; };
+		F39FAFD61945B59200A102F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39FAFD41945B59200A102F5 /* Main.storyboard */; };
+		F39FAFD81945B59200A102F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39FAFD71945B59200A102F5 /* Images.xcassets */; };
+		F39FAFE41945B59300A102F5 /* FFMPEGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F39FAFE31945B59300A102F5 /* FFMPEGTests.m */; };
+		F39FAFF01945C98800A102F5 /* FFMPEG完美入门资料.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F39FAFEF1945C98800A102F5 /* FFMPEG完美入门资料.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F39FAFDE1945B59300A102F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39FAFBF1945B59200A102F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F39FAFC61945B59200A102F5;
+			remoteInfo = FFMPEG;
+		};
+		F39FAFED1945BD9E00A102F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39FAFBF1945B59200A102F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F39FAFC61945B59200A102F5;
+			remoteInfo = FFMPEG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		693BBB2861CC45C88065D030 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FD13AE771E4A029785E748 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		F39FAFC71945B59200A102F5 /* FFMPEG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFMPEG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39FAFCB1945B59200A102F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39FAFCC1945B59200A102F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F39FAFCE1945B59200A102F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F39FAFCF1945B59200A102F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F39FAFD11945B59200A102F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F39FAFD21945B59200A102F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F39FAFD51945B59200A102F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F39FAFD71945B59200A102F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F39FAFDD1945B59200A102F5 /* FFMPEGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFMPEGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39FAFE21945B59300A102F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39FAFE31945B59300A102F5 /* FFMPEGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFMPEGTests.m; sourceTree = "<group>"; };
+		F39FAFEF1945C98800A102F5 /* FFMPEG完美入门资料.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "FFMPEG完美入门资料.pdf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F39FAFC41945B59200A102F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D61202A36F40BDB0A607D8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39FAFDA1945B59200A102F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C02B0327422C486BAAE6C087 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				693BBB2861CC45C88065D030 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F39FAFBE1945B59200A102F5 = {
+			isa = PBXGroup;
+			children = (
+				F39FAFEF1945C98800A102F5 /* FFMPEG完美入门资料.pdf */,
+				F39FAFC91945B59200A102F5 /* FFMPEG */,
+				F39FAFE01945B59300A102F5 /* FFMPEGTests */,
+				F39FAFC81945B59200A102F5 /* Products */,
+				E2FD13AE771E4A029785E748 /* Pods.xcconfig */,
+				C02B0327422C486BAAE6C087 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F39FAFC81945B59200A102F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F39FAFC71945B59200A102F5 /* FFMPEG.app */,
+				F39FAFDD1945B59200A102F5 /* FFMPEGTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F39FAFC91945B59200A102F5 /* FFMPEG */ = {
+			isa = PBXGroup;
+			children = (
+				F39FAFCE1945B59200A102F5 /* AppDelegate.h */,
+				F39FAFCF1945B59200A102F5 /* AppDelegate.m */,
+				F39FAFD11945B59200A102F5 /* ViewController.h */,
+				F39FAFD21945B59200A102F5 /* ViewController.m */,
+				F39FAFD41945B59200A102F5 /* Main.storyboard */,
+				F39FAFD71945B59200A102F5 /* Images.xcassets */,
+				F39FAFCA1945B59200A102F5 /* Supporting Files */,
+			);
+			path = FFMPEG;
+			sourceTree = "<group>";
+		};
+		F39FAFCA1945B59200A102F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F39FAFCB1945B59200A102F5 /* Info.plist */,
+				F39FAFCC1945B59200A102F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F39FAFE01945B59300A102F5 /* FFMPEGTests */ = {
+			isa = PBXGroup;
+			children = (
+				F39FAFE31945B59300A102F5 /* FFMPEGTests.m */,
+				F39FAFE11945B59300A102F5 /* Supporting Files */,
+			);
+			path = FFMPEGTests;
+			sourceTree = "<group>";
+		};
+		F39FAFE11945B59300A102F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F39FAFE21945B59300A102F5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F39FAFC61945B59200A102F5 /* FFMPEG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39FAFE71945B59300A102F5 /* Build configuration list for PBXNativeTarget "FFMPEG" */;
+			buildPhases = (
+				ED51B7ECE9BF474AA59C624D /* Check Pods Manifest.lock */,
+				F39FAFC31945B59200A102F5 /* Sources */,
+				F39FAFC41945B59200A102F5 /* Frameworks */,
+				F39FAFC51945B59200A102F5 /* Resources */,
+				3295A9B88376477A9520B31D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFMPEG;
+			productName = FFMPEG;
+			productReference = F39FAFC71945B59200A102F5 /* FFMPEG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F39FAFDC1945B59200A102F5 /* FFMPEGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39FAFEA1945B59300A102F5 /* Build configuration list for PBXNativeTarget "FFMPEGTests" */;
+			buildPhases = (
+				F39FAFD91945B59200A102F5 /* Sources */,
+				F39FAFDA1945B59200A102F5 /* Frameworks */,
+				F39FAFDB1945B59200A102F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F39FAFDF1945B59300A102F5 /* PBXTargetDependency */,
+				F39FAFEE1945BD9E00A102F5 /* PBXTargetDependency */,
+			);
+			name = FFMPEGTests;
+			productName = FFMPEGTests;
+			productReference = F39FAFDD1945B59200A102F5 /* FFMPEGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F39FAFBF1945B59200A102F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = BBA;
+				TargetAttributes = {
+					F39FAFC61945B59200A102F5 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F39FAFDC1945B59200A102F5 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F39FAFC61945B59200A102F5;
+					};
+				};
+			};
+			buildConfigurationList = F39FAFC21945B59200A102F5 /* Build configuration list for PBXProject "FFMPEG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F39FAFBE1945B59200A102F5;
+			productRefGroup = F39FAFC81945B59200A102F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F39FAFC61945B59200A102F5 /* FFMPEG */,
+				F39FAFDC1945B59200A102F5 /* FFMPEGTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F39FAFC51945B59200A102F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39FAFD61945B59200A102F5 /* Main.storyboard in Resources */,
+				F39FAFF01945C98800A102F5 /* FFMPEG完美入门资料.pdf in Resources */,
+				F39FAFD81945B59200A102F5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39FAFDB1945B59200A102F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3295A9B88376477A9520B31D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED51B7ECE9BF474AA59C624D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F39FAFC31945B59200A102F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39FAFD31945B59200A102F5 /* ViewController.m in Sources */,
+				F39FAFD01945B59200A102F5 /* AppDelegate.m in Sources */,
+				F39FAFCD1945B59200A102F5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39FAFD91945B59200A102F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39FAFE41945B59300A102F5 /* FFMPEGTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F39FAFDF1945B59300A102F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F39FAFC61945B59200A102F5 /* FFMPEG */;
+			targetProxy = F39FAFDE1945B59300A102F5 /* PBXContainerItemProxy */;
+		};
+		F39FAFEE1945BD9E00A102F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F39FAFC61945B59200A102F5 /* FFMPEG */;
+			targetProxy = F39FAFED1945BD9E00A102F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F39FAFD41945B59200A102F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39FAFD51945B59200A102F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F39FAFE51945B59300A102F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F39FAFE61945B59300A102F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F39FAFE81945B59300A102F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2FD13AE771E4A029785E748 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FFMPEG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F39FAFE91945B59300A102F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2FD13AE771E4A029785E748 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FFMPEG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F39FAFEB1945B59300A102F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FFMPEG.app/FFMPEG";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FFMPEGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		F39FAFEC1945B59300A102F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FFMPEG.app/FFMPEG";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FFMPEGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F39FAFC21945B59200A102F5 /* Build configuration list for PBXProject "FFMPEG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39FAFE51945B59300A102F5 /* Debug */,
+				F39FAFE61945B59300A102F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39FAFE71945B59300A102F5 /* Build configuration list for PBXNativeTarget "FFMPEG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39FAFE81945B59300A102F5 /* Debug */,
+				F39FAFE91945B59300A102F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39FAFEA1945B59300A102F5 /* Build configuration list for PBXNativeTarget "FFMPEGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39FAFEB1945B59300A102F5 /* Debug */,
+				F39FAFEC1945B59300A102F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F39FAFBF1945B59200A102F5 /* Project object */;
+}
